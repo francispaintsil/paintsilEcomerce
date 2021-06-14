@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/checkout.css">
+    <link rel="stylesheet" href="./assets/css/table.css">
+    <link rel="shortcut icon" href="./assets/images/vyv2.jpg" type="image/x-icon">
+    <title>checkout</title>
+</head>
+
+<body>
+    <hr>
+    <div class="container flex">
+        <div class="items-list">
+            <h3>My Bag <span id="numOfItems"></span></h3>
+            <div class="item-detail">
+              <div class="header">
+                <span>ITEM</span>
+                <span>QUANTITY & UNIT PRICE</span>
+                <span>DELIVERY/PICKUP Ⓘ</span>
+                <span>TOTAL PRICE</span>
+              </div>
+              <div class="body">
+                <span class="one" id="one">
+                  <div class="one-img" id="one-img"></div>
+                  <div class="one-data" id="one-data"></div>                               
+                </span>
+                <span class="two" id="two">                  
+                </span>
+                <span>
+                  <b>Shipping</b>
+                </span>
+                <span id="three">
+                  
+                </span>
+              </div>
+            </div> 
+        </div>
+        <div class="summary flex">
+          <div class="order-summary">
+            <h3>Order Summary</h3> 
+            <p><span id="its"></span> Items</p>
+          </div>
+          <div class="content-summary">
+            <div class="rows">
+              <span>Subtotal</span>
+              <span class="rt">$432.00</span>
+            </div>
+            <div class="rows">
+              <span>Sales Tax</span>
+              <span class="rt">0.00</span>
+            </div>
+            <div class="rows">
+              <span>ESTIMATED TOTAL*</span>
+              <span class="rt">$256.00</span>
+            </div>
+            <div class="rows">
+              <small>
+                or 4 payments of $64.00 by Afterpay ?
+              </small>
+            </div>
+            <div class="rows">
+              <span class="promocode">
+                <input type="text" name="" id="promocode" placeholder="Enter promo code">
+              </span>
+              <span class="rt apply">Apply</span>
+            </div>
+            <div class="rows red">
+              <span class="red-child">
+                <h2 class="white">CHECKOUT</h2>
+              </span>              
+            </div>
+            <div class="rows"></div>
+            <div class="rows"></div>
+          </div>
+        </div>
+    </div>    
+    <script src="./assets/js/checkout.js"></script>
+</body>
+
+</html>

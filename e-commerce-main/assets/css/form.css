@@ -1,0 +1,67 @@
+span #colors {
+    display: inline;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#sizes {
+    padding: 0;
+    min-height: 32px;
+    margin: 0;
+}
+#sizes li {
+    text-align: center;
+    margin: 5px;
+    float: left;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(246, 246, 246);
+    color: rgb(110, 110, 110);
+    /* font-weight: bold; */
+    /* border: 2px solid rgb(66, 65, 63); */
+}
+.increment {
+    /* border: 1px solid #000; */
+    width: 120px;
+    height: 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.quantity {
+    border: 1px solid #000;
+    display: inline-block;
+    width: 40px;
+    /* height: 30px; */
+
+    /* padding: 3px 10px ; */
+}
+.submit-container {
+    /* pass */
+}
+.add-button button {
+    width: 30vw;
+    height: 10vh;
+    margin: 10px 0px;
+    background-color: #052f5f;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #fff;
+}
+.adverts{
+    width: 29.9vw;
+    height: 10vh;
+    text-align: center;
+    overflow: contain;
+    border: 1px solid #000913;  
+}
+.buy{
+    font-weight: bold;
+    font-size: 17px;
+    margin: auto 0;
+    color: #002b5d; 
+
+}

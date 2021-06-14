@@ -1,0 +1,69 @@
+[
+    {
+        "id": "1",
+        "title": "Beachwood Hoodie",
+        "reviews": {
+            "id": "1",
+            "stars": 3
+        },
+        "info-text": "FREE GROUND SHIPPING on all orders over $125",
+        "price": "$128.00",
+        "colors":[
+            {"hex" : "#fed", "title": "Bright Peach"},
+            {"hex" : "#73d3e2", "title": "Flats Blue"},
+            {"hex" : "#1590d8", "title": "Hull Blue"},
+            {"hex" : "#e48083", "title": "Jetty Red"},
+            {"hex" : "#c8cad1", "title": "Light Gray Heather"},
+            {"hex" : "#272a3b", "title": "Vineyard Navy"}
+        ],
+        "sizes": [
+            "XS", "S", "M", "L", "XL", "XXL"
+        ],
+        "image": "./assets/images/men/shirts/hoodie_pink.jpg"
+    },
+    {
+        "id": "2",
+        "title": "Beachwood Hoodie",
+        "reviews": {
+            "id": "1",
+            "stars": 3
+        },
+        "info-text": "FREE GROUND SHIPPING on all orders over $125",
+        "price": "$128.00",
+        "colors":[
+            {"hex" : "#fed", "title": "Bright Peach"},
+            {"hex" : "#73d3e2", "title": "Flats Blue"},
+            {"hex" : "#1590d8", "title": "Hull Blue"},
+            {"hex" : "#e48083", "title": "Jetty Red"},
+            {"hex" : "#c8cad1", "title": "Light Gray Heather"},
+            {"hex" : "#272a3b", "title": "Vineyard Navy"}
+        ],
+        "sizes": [
+            "XS", "S", "M", "L", "XL", "XXL"
+        ],
+        "image": "./assets/images/men/shirts/hoodie_pink.jpg"
+    },
+    {
+        "id": "3",
+        "title": "Beachwood Hoodie",
+        "reviews": {
+            "id": "3",
+            "stars": 3
+        },
+        "info-text": "FREE GROUND SHIPPING on all orders over $125",
+        "price": "$128.00",
+        "colors":[
+            {"hex" : "#fed", "title": "Bright Peach"},
+            {"hex" : "#73d3e2", "title": "Flats Blue"},
+            {"hex" : "#1590d8", "title": "Hull Blue"},
+            {"hex" : "#e48083", "title": "Jetty Red"},
+            {"hex" : "#c8cad1", "title": "Light Gray Heather"},
+            {"hex" : "#272a3b", "title": "Vineyard Navy"}
+        ],
+        "sizes": [
+            "XS", "S", "M", "L", "XL", "XXL"
+        ],
+        "image": "./assets/images/men/shirts/hoodie_pink.jpg"
+    }
+
+]

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/images/vyv2.jpg" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/products.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
+    <title>pdp</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <div class="nav_img">
+                <img onclick="currentDiv(1)" src="./assets/images/men/shirts/hoodie_pink.jpg" alt="">
+            </div>
+            <div class="nav_img">
+                <img onclick="currentDiv(2)" src="./assets/images/men/shirts/2.jpg" alt="">
+            </div>
+            <div class="nav_img">
+                <img onclick="currentDiv(3)" src="./assets/images/men/shirts/3.jpg" alt="">
+            </div>
+        </div>
+        <div class="main">
+            <div class="products">
+                <div class="card" id="card">
+                    <div class="item_backdrop" id="item_backdrop">
+                        <img class="slides" src="./assets/images/men/shirts/hoodie_pink.jpg" alt="">
+                        <img class="slides" src="./assets/images/men/shirts/2.jpg" alt="">
+                        <img class="slides" src="./assets/images/men/shirts/3.jpg" alt="">
+                    </div>
+
+                    <!-- 
+                    <p>
+                        Beachwood Hoodie
+                    </p>
+                    <p>
+                        <b>
+                            $128.00
+                        </b>
+                    </p> -->
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <h3>Beachwood Hoodie</h3>
+            <div class="ratings">
+                <i class="zmdi zmdi-star zmdi-hc-lg"></i>
+                <i class="zmdi zmdi-star zmdi-hc-lg"></i>
+                <i class="zmdi zmdi-star zmdi-hc-lg"></i>
+                <i class="zmdi zmdi-star zmdi-hc-lg"></i>
+                <i class="zmdi zmdi-star zmdi-hc-lg"></i>
+                <span style="color: black;">2 Reviews</span style="color: black;">
+            </div>
+            <div>
+                <h4><span style="color: rgba(255, 0, 0, 0.527);"> FREE GROUND SHIPPING</span> on all orders over $125
+                </h4>
+            </div>
+            <b>$128.00</b>
+            <form action="" method="get">
+                <span id="colors">
+                    <input class="checkmark" type="radio" name="colors" id="color1" value="color1">
+                    <label for="color1">color1</label>
+                    <input type="radio" name="colors" id="color2" value="color1">
+                    <label for="color2">color2</label>
+                    <input type="radio" name="colors" id="color3" value="color1">
+                    <label for="color3">color3</label>
+                    <input type="radio" name="colors" id="color4" value="color1">
+                    <label for="color4">color4</label>
+
+                </span>
+
+                <p>Size: </p>
+                <ul class="sizes" id="sizes">
+                    <li>xs</li>
+                    <li>s</li>
+                    <li>m</li>
+                    <li>l</li>
+                    <li>xl</li>
+                    <li>xxl</li>
+                </ul>
+                <p>Size: Select a size size chart</p>
+                <div class="increment">
+                    <i class="zmdi zmdi-minus-circle-outline zmdi-hc-lg "></i>
+                    <span class="quantity">1</span>
+                    <i class="zmdi zmdi-plus-circle-o zmdi-hc-lg"></i>
+                </div>
+                <div class="submit-container">
+                    <div class="add-button">
+                        <button type="submit">ADD TO BAG</button>
+                    </div>                    
+                    <div class="adverts">
+                        <p class="buy">Buy online, free in-store pickup</p>
+                        <small>Get it today at a store near you</small>
+                    </div>                    
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./assets/js/slider.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

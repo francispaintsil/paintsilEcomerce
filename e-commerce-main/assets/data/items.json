@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Beachwood Hoodie",
+        "images": [],
+        "price": "$128",
+        "color": "Bright Peach",
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "id": 2,
+        "name": "Beachwood Hoodie",
+        "price": "$128",
+        "color": "Bright Peach",
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
+    }
+]
